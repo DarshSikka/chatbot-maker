@@ -6,7 +6,7 @@
   },
   "builds": [
     {
-      "src": "index.py",
+      "src": "main.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "45mb"
@@ -16,7 +16,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.py",
+      "dest": "main.py",
       "methods": ["GET"],
       "headers": {
         "Access-Control-Allow-Origin": "*",
