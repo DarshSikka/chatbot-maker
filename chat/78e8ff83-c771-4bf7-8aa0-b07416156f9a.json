@@ -1,0 +1,26 @@
+[
+  {
+    "keywords": [
+      { "id": 0, "keyword": "Hello" },
+      { "id": 1, "keyword": "Welcome" },
+      { "id": 2, "keyword": "Hi" },
+      { "id": 3, "keyword": "Bye" },
+      { "id": 4, "keyword": "Good morning" },
+      { "id": 5, "keyword": "Good to see you" }
+    ],
+    "resp": "Welcome!",
+    "priority": 3,
+    "objectId": 0
+  },
+  {
+    "keywords": [
+      { "id": 0, "keyword": "Contact" },
+      { "id": 1, "keyword": "Phone" },
+      { "id": 2, "keyword": "Ph.no" },
+      { "id": 3, "keyword": "no." }
+    ],
+    "resp": "You can contact us at xxxxxxxx",
+    "priority": 14,
+    "objectId": 1
+  }
+]
